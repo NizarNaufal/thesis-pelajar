@@ -548,7 +548,6 @@
             android:layout_marginBottom="16dp"
             android:layout_marginTop="@dimen/_13sdp"
             android:background="@drawable/btn_enabled"
-            android:enabled="false"
             android:text="Simpan"
             android:textColor="@color/white"
             android:textSize="14sp"

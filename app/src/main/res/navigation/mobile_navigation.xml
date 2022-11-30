@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.thesis.FragmentHome"
+        android:name="com.example.thesispelajar.FragmentHome"
         android:label="@string/tab_title_home"
         tools:layout="@layout/fragment_home" />
     <fragment

@@ -51,7 +51,7 @@ class ActivityListSantri : BaseActivity<ActivityPilihSantriBinding>(ActivityPili
     override fun onItemClicked(data: DatumModel) {
         binding.btnVerifyConfirm.isEnabled = true
         binding.btnVerifyConfirm.setOnClickListener {
-            Intent(this, ActivityDetailSantri::class.java).apply {
+            Intent(this, ActivityPrestasiSantri::class.java).apply {
                 putExtra("data",data)
                 startActivity(this)
             }
